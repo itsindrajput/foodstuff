@@ -1,12 +1,9 @@
 {
-  "homepage": "https://github.com/itsindrajput/foodstuff/tree/main/frontend",
   "name": "frontend",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
     "start": "vite",
     "dev": "vite",
     "build": "vite build",
