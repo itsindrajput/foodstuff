@@ -1,3 +1,4 @@
+ 
 .place-order{
     display: flex;
     align-items: start;
@@ -5,6 +6,7 @@
     gap: 50px;
     margin: 100px 0px;
 }
+
 .place-order-left{
     width: 100%;
     max-width: max(30%,500px);
@@ -22,7 +24,7 @@
     border-radius: 4px;
     outline-color: tomato;
 }
-.place-order-left .multi-field{
+.place-order-left .multi-fields{
     display: flex;
     gap: 10px;
 }
@@ -54,9 +56,10 @@
     border-radius: 4px;
     cursor: pointer;
 }
-
+/*
 @media (max-width:700px) {
     .place-order{
         flex-direction: column;
     }
 }
+    */ 

@@ -1,3 +1,4 @@
+
 .header{
     height: 34vw;
     margin: 30px auto;
@@ -5,6 +6,7 @@
     background-size:contain;
     position: relative;
 }
+
 .header-contents{
     position: absolute;
     display: flex;
@@ -16,6 +18,7 @@
     left: 6vw;
     animation: fadeIn 3s;
 }
+
 .header-contents h2{
     font-weight:500;
     color: white;
@@ -34,6 +37,7 @@
     font-size: max(1vw,13px);
     border-radius: 50px;
 }
+
 @media (max-width:1050px) {
     .header{
         height: 38vw;
